@@ -1,0 +1,30 @@
+@media (max-width: 991px) {
+    /**-------navbar-----*/
+    nav .navbar-nav{
+        padding: 15px 0;
+    }
+    nav .navbar-nav .nav-item .nav-link{
+        color: black;
+        text-align: center;
+    }
+    nav .navbar-nav .nav-item .nav-link:hover{
+        color: black;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        background-color: white;
+        width: 100%;
+    }
+    .navbar-dark .navbar-nav .nav-link.active::after{
+        width: 0;
+    }
+    .navbar-dark .navbar-nav .nav-link.active{color: black;}
+
+}
+@media (max-width: 1200px){
+    /**---slider---*/
+    .slider-section .carousel-item{
+        img{
+            width: 20%;
+        }
+    }
+}
